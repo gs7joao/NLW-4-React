@@ -1,0 +1,1 @@
+Criação do Primeiro Modelo da Aula 1, sem utilizar o Next.js
