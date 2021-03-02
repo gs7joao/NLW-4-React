@@ -1,0 +1,50 @@
+
+*{ /*   TODOS ELEMENTOS */ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root { /* VARIVAEIS */
+	--white: #fff;
+	--background: #f2f3f5;
+	--gray-line: #dcdde0;
+	--text: #666666;
+	--text-highlight: #b3b9ff;
+	--title: #2E384D;
+	--red: #e83f5b;
+	--green: #4CD62B;
+	--blue: #5965E0;
+	--blue-dark: #4953b8;
+	--blue-twitter: #2aa9e0;
+}
+
+@media(max-width: 1080px){  /* 16x0.9375 = 15 ou seja, vai diminuindo 1px para cada tipo de visualização */
+	html {
+		font-size: 93.75%; 
+	}
+}
+
+@media(max-width: 720px){ /* 16x0.8750 = 14 ou seja, vai diminuindo 1px para cada tipo de visualização */
+	html {
+		font-size: 87.5%; 
+	}
+}
+
+body{
+	background: var(--background);
+	color: var(--text);
+}
+
+body, input, textarea, button {
+	font: 400 1rem "Inter", sans-serif; /* A cada 1rem equivale o padrão da fonte da aplicação */
+}
+
+button {
+	cursor: pointer;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
